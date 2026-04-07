@@ -1,0 +1,12 @@
+Explicación breve del Notebook — Bike Sharing
+
+En este cuadernillo se desarrolla un análisis del dataset Bike Sharing, el cual contiene información sobre alquiler de bicicletas por hora junto con variables como clima, temperatura, humedad, temporada y día laboral. Primero se cargan las librerías necesarias y se analiza el dataset para entender sus características y verificar valores nulos. Luego se realiza ingeniería de variables, extrayendo información útil de la columna datetime, como la hora, el mes y el año.
+
+Posteriormente se seleccionan las variables más relevantes y se normalizan los datos para facilitar el aprendizaje de la red neuronal. El dataset se divide en 75% para entrenamiento y 25% para prueba.
+
+Se construyen dos modelos usando PyTorch:
+
+Un modelo de regresión, que predice el número total de bicicletas alquiladas (count).
+Un modelo de clasificación, que predice si la demanda será alta o baja, según la mediana del número de alquileres.
+
+Ambos modelos utilizan redes neuronales con varias capas ocultas y Dropout para evitar overfitting. Finalmente, se evalúan los modelos utilizando métricas como MAE, RMSE y R² para regresión, y Accuracy y matriz de confusión para clasificación, mostrando que el modelo puede aprender patrones del comportamiento de alquiler de bicicletas.
