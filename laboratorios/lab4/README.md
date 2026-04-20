@@ -1,1 +1,6 @@
-
+buenas inge este es mi git de mi lab 4, ahi esta todo, los cuadernillos y los data sets que se uso 
+https://github.com/jhonn18git/inteligencia-artificial-1-ia/tree/main/laboratorios/lab4
+CUADERNILLO 1 — MNIST (Imágenes)
+Se cargaron 60,000 imágenes de dígitos escritos a mano (0-9), cada una aplanada en un vector de 784 píxeles. Se agregó columna de bias, se dividió en entrenamiento/validación y se entrenaron 10 clasificadores logísticos (uno por dígito) usando One-vs-All: cada clasificador aprende a distinguir "es este dígito" vs "no es este dígito". Para predecir, se calculan las 10 probabilidades y se elige la clase con mayor valor. El modelo también puede clasificar imágenes externas nuevas.
+CUADERNILLO 2 — Cobertura Forestal (sin imágenes)
+Se cargó un dataset de ~580,000 parcelas de bosque, cada una descrita por 54 variables geográficas (elevación, pendiente, distancia a ríos, tipo de suelo, etc.). Se normalizaron los datos, se agregó bias y se dividió en entrenamiento/validación/test. Se entrenaron 7 clasificadores logísticos (uno por tipo de árbol) usando el mismo enfoque One-vs-All. Para predecir, se eligen las probabilidades más altas entre las 7 clases y se devuelve el tipo de cobertura forestal predominante.
