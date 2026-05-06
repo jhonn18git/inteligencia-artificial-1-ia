@@ -1,3 +1,7 @@
+-----ruta del data set(es pesado y no se puede subir al git)
+http://kaggle.com/datasets/mostafaabla/garbage-classification
+
+
 Laboratorio 7 — Aprendizaje No Supervisado
 Estudiante: Jhonn Wilder Llanos Rojas
 Carrera: Ciencias de la Computación
